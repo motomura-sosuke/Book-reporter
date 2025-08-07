@@ -13,4 +13,8 @@ Release/
 # ログファイルなど
 *.log
 
+# プログラム実行で生成されるレビューCSVを無視
+reviews.csv
+
+
 
