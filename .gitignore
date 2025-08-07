@@ -1,0 +1,16 @@
+# Visual Studio固有ファイル／設定
+.vs/
+*.suo
+*.user
+
+# ビルド成果物
+bin/
+obj/
+x64/
+Debug/
+Release/
+
+# ログファイルなど
+*.log
+
+
