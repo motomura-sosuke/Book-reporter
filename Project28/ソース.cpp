@@ -7,9 +7,12 @@ using namespace std;
 
 template<typename T>
 bool safeRead(T& out) {
-	if (!(std::cin >> out)) return false;
-	std::cin.ignore(numeric_limits<streamsize>::max(), '\n');
+	if (!(cin >> out)) return false;
+	cin.ignore(numeric_limits<streamsize>::max(), '\n');
 	return true;
+}
+bool safeRead(string& out) {
+	return bool(getline(cin >> ws, out));
 }
 
 int main() {
